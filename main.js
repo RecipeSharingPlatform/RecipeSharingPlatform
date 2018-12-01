@@ -591,7 +591,7 @@ var CoreModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-default\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-header\">\n      <a routerLink=\"/\" class=\"navbar-brand\">Machine Generated Recipes</a>\n    </div>\n\n    <div class=\"collapse navbar-collapse\">\n      <ul class=\"nav navbar-nav\">\n        <li routerLinkActive=\"active\"><a (click)=\"onFetchData()\" *ngIf=\"isAuthenticated()\" routerLink=\"/recipes\">Recipes</a></li>\n        <li routerLinkActive=\"active\"><a routerLink=\"/top-ingredients\" *ngIf=\"isAuthenticated()\">Top Ingredients</a></li>\n      </ul>\n      <ul class=\"nav navbar-nav navbar-right\">\n        <ng-template [ngIf]=\"!isAuthenticated()\">\n          <li><a routerLink=\"/signup\">Register</a></li>\n          <li><a routerLink=\"/signin\">Login</a></li>\n        </ng-template>\n\n        <li><a\n          style=\"cursor: pointer;\"\n          (click)=\"onLogout()\"\n          *ngIf=\"isAuthenticated()\">Logout</a></li>\n      </ul>\n    </div>\n  </div>\n</nav>\n"
+module.exports = "<nav class=\"navbar navbar-default\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-header\">\n      <a routerLink=\"/\" class=\"navbar-brand\">Machine Generated Recipes</a>\n    </div>\n\n    <div class=\"\">\n      <ul class=\"nav navbar-nav\">\n        <li routerLinkAng buildctive=\"active\"><a (click)=\"onFetchData()\" *ngIf=\"isAuthenticated()\" routerLink=\"/recipes\">Recipes</a></li>\n        <li routerLinkActive=\"active\"><a routerLink=\"/top-ingredients\" *ngIf=\"isAuthenticated()\">Top Ingredients</a></li>\n      </ul>\n      <ul class=\"nav navbar-nav navbar-right\">\n        <ng-template [ngIf]=\"!isAuthenticated()\">\n          <li><a routerLink=\"/signup\">Register</a></li>\n          <li><a routerLink=\"/signin\">Login</a></li>\n        </ng-template>\n\n        <li><a\n          style=\"cursor: pointer;\"\n          (click)=\"onLogout()\"\n          *ngIf=\"isAuthenticated()\">Logout</a></li>\n      </ul>\n    </div>\n  </div>\n</nav>\n"
 
 /***/ }),
 
@@ -662,7 +662,7 @@ var HeaderComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".bimageclass { \r\n    background: url('https://cdn.pixabay.com/photo/2017/02/15/10/39/salad-2068220_960_720.jpg') no-repeat center center fixed;\r\n    background-size: cover;\r\n    height: 300px;\r\n}\r\n\r\n.custom-a {\r\n    display: block;\r\n    width:180px;\r\n    margin-top:20px;\r\n}\r\n\r\n.custom-div {\r\n    margin:40px;\r\n}\r\n\r\n.custom-blockquote {\r\n    margin-left:150px;\r\n    margin-right:150px;\r\n    margin-top:50px;\r\n}\r\n\r\n.header-button {\r\n    margin-top:30px;\r\n}\r\n\r\n.topheading {\r\n    color: saddlebrown;\r\n}"
+module.exports = ".bimageclass { \r\n    background: url('background.jpg') no-repeat center center fixed;\r\n    background-size: cover;\r\n    height: 300px;\r\n}\r\n\r\n.custom-a {\r\n    display: block;\r\n    width:180px;\r\n    margin-top:20px;\r\n}\r\n\r\n.custom-div {\r\n    margin:40px;\r\n}\r\n\r\n@media (min-width: 900px){\r\n    \r\n    .custom-blockquote {\r\n    margin-left:150px;\r\n    margin-right:150px;\r\n    margin-top:50px;\r\n}\r\n\r\n}\r\n\r\n@media (max-width: 900px){\r\n    \r\n    .custom-blockquote {\r\n    margin-top:50px;\r\n}   \r\n \r\n}\r\n\r\n.header-button {\r\n    margin-top:30px;\r\n}\r\n\r\n.topheading {\r\n    color: saddlebrown;\r\n}"
 
 /***/ }),
 
